@@ -2,6 +2,9 @@
   - name: "Playing with Ansible and Git"
     hosts: localhost
     connection: local 
+    vars:
+      test1_pwd: abc
+      test2_pwd: def
     tasks:
 
     - name: "just execute a ls -lrt command"
