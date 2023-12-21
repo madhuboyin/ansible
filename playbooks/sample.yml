@@ -12,3 +12,9 @@
       register: "output"
 
     - debug: var=output.stdout_lines
+
+    - name: search and replace
+      replace:
+        path: /home/madhuboyina/work/git/ansible/group_vars/bb_config/bbexporter_config.yml
+        regexp: 'test1_pwd'
+        replace: {{test1_pwd}}
