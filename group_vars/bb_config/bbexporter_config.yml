@@ -3,5 +3,5 @@ modules:
     prober: icmp
     timeout: 3s
     icmp:
-      preferred_ip_protocol: "{{ test1_pwd }}"
-      ip_protocol_fallback: "{{ test2_pwd }}"
+      preferred_ip_protocol: test1_pwd
+      ip_protocol_fallback: test2_pwd
