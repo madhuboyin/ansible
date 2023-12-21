@@ -1,5 +1,4 @@
 ---
-  - include_vars: vault.yml
   - name: "Playing with Ansible and Git"
     hosts: localhost
     connection: local 
