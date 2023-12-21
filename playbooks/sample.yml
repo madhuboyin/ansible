@@ -5,7 +5,7 @@
     tasks:
 
     - name: "just execute a ls -lrt command"
-      shell: "ls -lrt"
+      shell: "cat /home/madhuboyina/work/git/ansible/group_vars/bb_config/bbexporter_config.yml"
       register: "output"
 
     - debug: var=output.stdout_lines
