@@ -1,5 +1,5 @@
 ---
-  - name: "Playing with Ansible and Git11"
+  - name: "Playing with Ansible and Git123"
     hosts: localhost
     connection: local 
     vars:
